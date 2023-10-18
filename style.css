@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #4b076b;
+    margin-bottom: 20px;
+}
+
+#product-form {
+    background-color: #f2f2f2;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4b076b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #7a148b;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#result-container {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 400px;
+    background-color: #f2f2f2;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+}
